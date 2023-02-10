@@ -16,6 +16,7 @@ import { AdministrarCategoriaComponent } from './administrar-categoria/administr
 import { CategoriaComponent } from './dialog/categoria/categoria.component';
 import { AdministrarProdutoComponent } from './administrar-produto/administrar-produto.component';
 import { ProdutoComponent } from './dialog/produto/produto.component';
+import { AdministrarPedidoComponent } from './administrar-pedido/administrar-pedido.component';
 
 @NgModule({
   imports: [
@@ -36,7 +37,8 @@ import { ProdutoComponent } from './dialog/produto/produto.component';
     AdministrarCategoriaComponent,
     CategoriaComponent,
     AdministrarProdutoComponent,
-    ProdutoComponent
+    ProdutoComponent,
+    AdministrarPedidoComponent
   ]
 })
 export class MaterialComponentsModule {}

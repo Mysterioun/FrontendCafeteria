@@ -6,6 +6,10 @@ export class GlobalConstants{
 
     public static unauthorized: string = "Você não possui autorização para acessar essa pagina.";
 
+    public static productExistError: string = "Produto já existe!";
+
+    public static productAdded: string = "Produto adicionado com sucesso";
+
     //Regex
 
     public static nomeRegex: string = "[a-zA-Z0-9 ]*";

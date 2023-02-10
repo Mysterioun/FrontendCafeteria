@@ -28,4 +28,9 @@ export class CategoriaService {
   getCategorias(){
     return this.httpClient.get(this.url + "/categoria/get")
   }
+
+  getFiltrandoCategorias(){
+    return this.httpClient.get(this.url+"/categoria/get?filterValue=true");
+  }
+
 }

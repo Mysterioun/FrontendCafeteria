@@ -42,4 +42,13 @@ export class ProdutoService {
         headers: new HttpHeaders().set('Content-Type', "application/json")
       })
   }
+
+  getProdutosPelaCategoria(id: any){
+    return this.httpClient.get(this.url+"/produto/getPelaCategoria/"+id);
+  }
+
+  getPeloId(id: any){
+    return this.httpClient.get(this.url+"/produto/getPeloId/"+id);
+  }
+  
 }
